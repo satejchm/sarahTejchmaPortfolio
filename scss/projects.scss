@@ -72,7 +72,7 @@
               rgba(0, 0, 0, 0.5),
               rgba(0, 0, 0, 0.5)
             ),
-            url("/assets/pacersProject.JPG");
+            url("../assets/pacersProject.JPG");
 
           text-decoration: none;
 
@@ -102,7 +102,7 @@
               rgba(0, 0, 0, 0.5),
               rgba(0, 0, 0, 0.5)
             ),
-            url("/assets/awdopt.JPG");
+            url("../assets/awdopt.JPG");
         }
       }
     }
@@ -164,7 +164,7 @@
               rgba(0, 0, 0, 0.5),
               rgba(0, 0, 0, 0.5)
             ),
-            url("/assets/travelFly.JPG");
+            url("../assets/travelFly.JPG");
 
           text-decoration: none;
 
@@ -184,7 +184,7 @@
       }
 
       .save-spe {
-        background-image: url("/assets/saveSpecies.JPG");
+        background-image: url("../assets/saveSpecies.JPG");
         &:hover {
           background-image: linear-gradient(
               to right,
