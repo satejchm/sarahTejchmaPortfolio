@@ -1,7 +1,7 @@
 #about {
   width: 100%;
   display: flex;
-  height: 100%;
+  min-height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -10,6 +10,7 @@
 
   .about-holder {
     width: 80%;
+    height: 100%;
     padding: 10px;
     font-size: 200%;
     font-family: $comf;
@@ -23,6 +24,8 @@
       border-radius: 10px 0px 0px 10px;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       height: 600px;
 
       h1 {
@@ -32,10 +35,43 @@
       }
       p {
         margin-top: 100px;
+        margin-bottom: 100px;
         text-align: left;
         font-size: 100%;
         font-family: $comf;
         padding: 0px 50px 0px 50px;
+      }
+
+      #resume-button {
+        text-align: center;
+        border: 0px;
+        background-color: $blue;
+        height: 100px;
+        width: 300px;
+        border-radius: 50px;
+        font-size: 100%;
+        font-family: $comf;
+        color: white;
+        padding: 25px 0px 25px 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  nav {
+    #about {
+      height: 100%;
+      .about-holder {
+        .about-info {
+          h1 {
+            font-size: 150%;
+          }
+
+          p {
+            font-size: 50%;
+          }
+        }
       }
     }
   }

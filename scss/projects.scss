@@ -9,10 +9,11 @@
 
   .title-holder {
     @include center-content();
-    font-size: 300%;
+    font-size: 350%;
     font-family: $dance;
     padding-bottom: 25px;
     text-align: center;
+    margin-bottom: 50px;
   }
 
   .project-holder {
