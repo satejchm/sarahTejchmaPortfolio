@@ -113,10 +113,10 @@ nav {
     height: 700px;
     margin-top: -10%;
     background-color: pink;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(159, 176, 254, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/assets/typingtwo.jpg");
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.6), rgba(159, 176, 254, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/typingtwo.jpg");
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.6), rgba(159, 176, 254, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/typingtwo.jpg");
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(159, 176, 254, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/typingtwo.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(rgba(159, 176, 254, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../assets/typingtwo.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.6), rgba(159, 176, 254, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/typingtwo.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.6), rgba(159, 176, 254, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/typingtwo.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(159, 176, 254, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/typingtwo.jpg");
     border-radius: 10px;
     background-position: cover;
     background-repeat: no-repeat;
@@ -273,7 +273,7 @@ nav {
       #projects .project-holder .project-info-holder .project-image-info-holder {
         border-radius: 0px 10px 10px 0px;
         width: 50%;
-        background-image: url("/assets/pacersProject.JPG");
+        background-image: url("../assets/pacersProject.JPG");
         background-position: cover;
         background-repeat: no-repeat;
         background-size: cover;
@@ -308,7 +308,7 @@ nav {
       #projects .project-holder .project-info-holder .aw {
         background-color: #9fb0fe; }
       #projects .project-holder .project-info-holder .awdopt {
-        background-image: url("/assets/awdopt.JPG"); }
+        background-image: url("../assets/awdopt.JPG"); }
         #projects .project-holder .project-info-holder .awdopt:hover {
           background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/awdopt.JPG");
           background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/awdopt.JPG");
@@ -356,7 +356,7 @@ nav {
       #projects .project-holder .project-info-holder-two .project-image-info-holder-two {
         border-radius: 10px 0px 0px 10px;
         width: 50%;
-        background-image: url("/assets/travelFly.JPG");
+        background-image: url("../assets/travelFly.JPG");
         background-position: cover;
         background-repeat: no-repeat;
         background-size: cover;
@@ -391,10 +391,10 @@ nav {
       #projects .project-holder .project-info-holder-two .save-spe {
         background-image: url("/assets/saveSpecies.JPG"); }
         #projects .project-holder .project-info-holder-two .save-spe:hover {
-          background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/saveSpecies.JPG");
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/saveSpecies.JPG");
-          background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/saveSpecies.JPG");
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/saveSpecies.JPG"); }
+          background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../assets/saveSpecies.JPG");
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/saveSpecies.JPG");
+          background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/saveSpecies.JPG");
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/saveSpecies.JPG"); }
 
 .footer-wrapper {
   margin-top: 50px;

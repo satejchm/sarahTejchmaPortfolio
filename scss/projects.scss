@@ -51,7 +51,7 @@
       .project-image-info-holder {
         border-radius: 0px 10px 10px 0px;
         width: 50%;
-        background-image: url("/assets/pacersProject.JPG");
+        background-image: url("../assets/pacersProject.JPG");
 
         background-position: cover;
         background-repeat: no-repeat;
@@ -95,7 +95,7 @@
         background-color: rgb(159, 176, 254);
       }
       .awdopt {
-        background-image: url("/assets/awdopt.JPG");
+        background-image: url("../assets/awdopt.JPG");
         &:hover {
           background-image: linear-gradient(
               to right,
@@ -145,7 +145,7 @@
       .project-image-info-holder-two {
         border-radius: 10px 0px 0px 10px;
         width: 50%;
-        background-image: url("/assets/travelFly.JPG");
+        background-image: url("../assets/travelFly.JPG");
         background-position: cover;
         background-repeat: no-repeat;
         background-size: cover;
@@ -191,7 +191,7 @@
               rgba(0, 0, 0, 0.5),
               rgba(0, 0, 0, 0.5)
             ),
-            url("/assets/saveSpecies.JPG");
+            url("../assets/saveSpecies.JPG");
         }
       }
     }
