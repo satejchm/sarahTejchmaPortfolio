@@ -8,7 +8,6 @@
   color: white;
 
   .title-holder {
-    @include center-content();
     font-size: 350%;
     font-family: $dance;
     padding-bottom: 25px;
@@ -17,6 +16,9 @@
   }
 
   .project-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 50px;
     .project-info-holder {
       background-color: rgba(255, 255, 255, 0.856);
@@ -24,7 +26,6 @@
       width: 80%;
       min-height: 500px;
       display: flex;
-      @include center-content();
 
       .project-info {
         border-radius: 10px 0px 0px 10px;
@@ -114,8 +115,6 @@
       width: 80%;
       min-height: 500px;
       display: flex;
-      @include center-content();
-
       .project-info-two {
         border-radius: 0px 10px 10px 0px;
         display: flex;
@@ -195,6 +194,15 @@
             url("../assets/saveSpecies.JPG");
         }
       }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #projects {
+    .title-holder {
+      font-size: 200%;
+      margin-bottom: 10px;
     }
   }
 }

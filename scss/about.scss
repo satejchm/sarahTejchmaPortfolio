@@ -59,18 +59,17 @@
 }
 
 @media (max-width: 800px) {
-  nav {
-    #about {
-      height: 100%;
-      .about-holder {
-        .about-info {
-          h1 {
-            font-size: 150%;
-          }
+  #about {
+    height: 100%;
+    .about-holder {
+      .about-info {
+        h1 {
+          font-size: 150%;
+        }
 
-          p {
-            font-size: 50%;
-          }
+        p {
+          margin-top: 10px;
+          font-size: 60%;
         }
       }
     }
