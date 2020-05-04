@@ -1,0 +1,199 @@
+#projects {
+  width: 100%;
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+  .title-holder {
+    @include center-content();
+    font-size: 300%;
+    font-family: $dance;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .project-holder {
+    padding-bottom: 50px;
+    .project-info-holder {
+      background-color: rgba(255, 255, 255, 0.856);
+      border-radius: 10px;
+      width: 80%;
+      min-height: 500px;
+      display: flex;
+      @include center-content();
+
+      .project-info {
+        border-radius: 10px 0px 0px 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 166, 0, 0.7);
+        width: 50%;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+          width: 90%;
+          text-align: left;
+          font-size: 250%;
+        }
+        p {
+          width: 90%;
+          text-align: left;
+          font-size: 150%;
+          font-family: $comf;
+        }
+      }
+
+      .project-image-info-holder {
+        border-radius: 0px 10px 10px 0px;
+        width: 50%;
+        background-image: url("/assets/pacersProject.JPG");
+
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        p {
+          display: none;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        &:hover {
+          background-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url("/assets/pacersProject.JPG");
+
+          text-decoration: none;
+
+          p {
+            margin-top: 35%;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            font-size: 250%;
+            font-family: $comf;
+          }
+        }
+      }
+
+      .aw {
+        background-color: rgb(159, 176, 254);
+      }
+      .awdopt {
+        background-image: url("/assets/awdopt.JPG");
+        &:hover {
+          background-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url("/assets/awdopt.JPG");
+        }
+      }
+    }
+
+    .project-info-holder-two {
+      background-color: rgba(255, 255, 255, 0.856);
+      border-radius: 10px;
+      width: 80%;
+      min-height: 500px;
+      display: flex;
+      @include center-content();
+
+      .project-info-two {
+        border-radius: 0px 10px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(121, 173, 220, 0.7);
+        width: 50%;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+          width: 90%;
+          text-align: left;
+          font-size: 250%;
+        }
+        p {
+          width: 90%;
+          text-align: left;
+          font-size: 150%;
+          font-family: $comf;
+        }
+      }
+
+      .save {
+        background-color: rgb(0, 68, 0);
+      }
+
+      .project-image-info-holder-two {
+        border-radius: 10px 0px 0px 10px;
+        width: 50%;
+        background-image: url("/assets/travelFly.JPG");
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        p {
+          display: none;
+        }
+
+        a {
+          text-decoration: none;
+        }
+        &:hover {
+          background-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url("/assets/travelFly.JPG");
+
+          text-decoration: none;
+
+          p {
+            margin-top: 35%;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            font-size: 250%;
+            font-family: $comf;
+          }
+        }
+      }
+
+      .save-spe {
+        background-image: url("/assets/saveSpecies.JPG");
+        &:hover {
+          background-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url("/assets/saveSpecies.JPG");
+        }
+      }
+    }
+  }
+}
